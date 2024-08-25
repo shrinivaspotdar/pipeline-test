@@ -1,0 +1,16 @@
+pipeline
+{
+agent any
+stages
+{
+satge('print hello')
+{
+steps
+{
+
+sh'echo hello_jenkins'
+
+}
+}
+}
+}
