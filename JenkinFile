@@ -7,5 +7,9 @@ stage('print hello')
 {
 steps
 {sh'echo hello_jenkins'}}
+stage('code build')
+{
+steps
+{sh'echo code is building'}}
 }
 }
