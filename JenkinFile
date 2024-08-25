@@ -6,7 +6,6 @@ stages
 stage('print hello')
 {
 steps
-{sh'echo hello_jenkins'}
-}
+{sh'echo hello_jenkins'}}
 }
 }
