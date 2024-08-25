@@ -5,12 +5,8 @@ stages
 {
 satge('print hello')
 {
-steps
-{
-
-sh'echo hello_jenkins'
-
-}
+step
+{sh'echo hello_jenkins'}
 }
 }
 }
