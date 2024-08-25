@@ -3,7 +3,7 @@ pipeline
 agent any
 stages
 {
-satge('print hello')
+stage('print hello')
 {
 step
 {sh'echo hello_jenkins'}
