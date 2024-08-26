@@ -6,9 +6,6 @@ stages
 stage('git checkout')
 {steps{https://github.com/shrinivaspotdar/pipeline-test.git}}}
 
-stage('compile the code')
-{steps{withMaven(globalMavenSettingsConfig: '88067031-b704-4db8-9f10-43532cc29286', jdk:'LocalJDK', maven: 'LocalMVN', mavenSettingsConfig:'437a1625-ac9f-453b-99a1-53bbd6165f5c', traceability: true)
-{sh 'mvn compile'}
-}}
+
 }
 }
